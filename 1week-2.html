@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>회원가입 페이지</h1>
+    </header>
+    <main>
+        <fieldset>
+            <legend>아이디 확인</legend>
+            <input type="text" placeholder="아이디 입력">
+            <button type="button">아이디 확인</button>
+        </fieldset>
+        <fieldset>
+            <legend>비밀번호</legend>
+            <input type="password" name="password" id="password">
+        </fieldset>
+        <fieldset>
+            <legend>비밀번호 재확인</legend>
+            <input type="password" name="check-password" id="checkPassword">
+            <button type="button">비밀번호 재확인</button>
+        </fieldset>
+        <fieldset>
+            <legend>이름</legend>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>생년월일</legend>
+            <input type="date" name="birth" id="birth">
+        </fieldset>
+        <fieldset>
+            <legend>성별</legend>
+            남자<input type="radio" name="sex" id="man">
+            여자<input type="radio" name="sex" id="woman">   
+        </fieldset>
+        <fieldset>
+            <legend>이메일</legend>
+            <input type="email" name="email" id="email">
+        </fieldset>
+        <fieldset>
+            <legend>휴대전화</legend>
+            <input type="number" name="phone-num" id="phoneNum" placeholder="010-****-****">
+            <button type="button">인증번호 받기</button><br>
+            <input type="number" name="check-num" id="checkNum" placeholder="인증번호를 입력하세요">
+            <button type="button">확인</button>
+        </fieldset>
+        <fieldset>
+            <legend>관심사</legend>
+            IT<input type="checkbox" name="it" id="it">
+            보안<input type="checkbox" name="security" id="security">
+            웹<input type="checkbox" name="web" id="web">
+            서버<input type="checkbox" name="server" id="server">
+        </fieldset>
+        <fieldset>
+            <legend>본인 사진</legend>
+            <input type="file" name="" id="">
+        </fieldset>
+        <button type="submit">제출</button>
+    </main>
+</body>
+</html>
